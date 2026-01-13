@@ -1,0 +1,11 @@
+jaffle_shop:
+  outputs:
+    dev:
+      type: risingwave
+      host: 127.0.0.1
+      user: root
+      pass: ''
+      dbname: dev
+      port: 4566
+      schema: public
+  target: dev

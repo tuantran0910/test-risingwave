@@ -1,6 +1,7 @@
 ---
 x-image: &image
-  image: ${RW_IMAGE:-risingwavelabs/risingwave:v2.5.1}
+  # image: ${RW_IMAGE:-risingwavelabs/risingwave:v2.5.1}
+  image: ghcr.io/tuantran0910/risingwave:v0.0.1
 services:
   risingwave-standalone:
     <<: *image
