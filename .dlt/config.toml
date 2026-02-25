@@ -1,0 +1,4 @@
+# [destination.filesystem]
+# bucket_url = "gs://rainbow-data-production-iceberg/dlt"
+# bucket_url = "file://tmp/dlt"
+# kwargs = '{"auto_mkdir": true}'

@@ -6,4 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "dbt-risingwave>=1.10.0",
+    "dlt[gs,parquet,sqlalchemy]>=1.21.0",
+    "google-cloud-pubsub>=2.34.0",
+    "sqlalchemy-risingwave>=1.4.1",
 ]
